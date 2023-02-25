@@ -1,2 +1,5 @@
 # short
-my personal tool of shortening link. written in shell.
+shoutout to: <https://is.gd/> for the awesome shortened link provider.
+here if u want to install:
+```sh
+```
