@@ -2,7 +2,7 @@
 shoutout to: <https://is.gd/> for the awesome shortened link provider.<br/>
 
 ## installation
-ensure that your PATH have set.
+ensure that your PATH have been set.
 ```shell
 ~$ export PATH=$HOME/.local/bin:$PATH
 ```
