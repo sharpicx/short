@@ -11,5 +11,8 @@ and then, save this script to the PATH.
 ~$ curl -s https://raw.githubusercontent.com/sharpicx/short/main/short -o ~/.local/bin/short
 ```
 
+## usage
+
+
 ## credits
-- the developers of <https://is.gd/>
+- i be giving them a thank, the developers of <https://is.gd/>.
