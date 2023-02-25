@@ -12,7 +12,7 @@ and then, save this script to the PATH.
 ```
 
 ## usage
-
+- asciinema link: <https://asciinema.org/a/562900>
 
 ## credits
 - i be giving them a thank, the developers of <https://is.gd/>.
