@@ -10,6 +10,10 @@ and then, save this script to the PATH.
 ```shell
 ~$ curl -s https://raw.githubusercontent.com/sharpicx/short/main/short -o ~/.local/bin/short
 ```
+and, run it any time.
+```shell
+~$ short
+```
 
 ## usage
 - asciinema link: <https://asciinema.org/a/562900>
