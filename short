@@ -33,8 +33,8 @@ if [[ "$answer" == "1" ]]; then
     echo -e "${red}invalid url.${reset}"
   fi
 elif [[ "$answer" == "2" ]]; then
-  if [[ -e /home/via/random-stuff/pribadi/saved_cookie ]]; then
-    get_cookie=$(cat /home/via/random-stuff/pribadi/saved_cookie)
+  if [[ -e $HOME/.saved_cookie ]]; then
+    get_cookie=$(cat $HOME/.saved_cookie)
     echo -e "${pink}cookie confirmed: ${green}$get_cookie${reset} ${reset}"
     read -p $'\e[1:34mshow your barely shortened link? [y/n]\e[1m ' collection
     if [[ "$collection" == "y" ]]; then
@@ -46,9 +46,9 @@ elif [[ "$answer" == "2" ]]; then
     fi
   else
     read -p $'\e[1:34menter the cookie to be saved:\e[1m ' saved_cookie
-    touch /home/via/random-stuff/pribadi/saved_cookie
-    echo $saved_cookie > /home/via/random-stuff/pribadi/saved_cookie
-    get_cookie=$(cat /home/via/random-stuff/pribadi/saved_cookie)
+    touch $HOME/.saved_cookie
+    echo $saved_cookie > $HOME/.saved_cookie
+    get_cookie=$(cat $HOME/.saved_cookie)
     echo -e "${pink}cookie saved: ${green}$get_cookie${reset}${reset}"
     exit 0
   fi
