@@ -12,7 +12,7 @@ and then, save this script to the PATH.
 ```
 and, run it any time.
 ```shell
-~$ short
+~$ chmod +x ~/.local/bin/short; short
 ```
 
 ## usage
