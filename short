@@ -38,7 +38,7 @@ elif [[ "$answer" == "2" ]]; then
     echo -e "${pink}cookie confirmed: ${green}$get_cookie${reset} ${reset}"
     read -p $'\e[1:34mshow your barely shortened link? [y/n]\e[1m ' collection
     if [[ "$collection" == "y" ]]; then
-      output=$(curl -sXGET 'https://is.gd/recent.php' --cookie "recent=$get_cookie" | html2text | grep -w "https" | tr -d "<>")
+      output=$(curl -sXGET 'https://is.gd/recent.php' --cookie "recent=$get_cookie" | html2text | grep "^http" | tr -d "<>")
       echo -e "${green}$output${reset}"
     else
       echo -e "${kuning}every your collections is piece of shit.\nbye!${reset}"
