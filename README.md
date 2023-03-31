@@ -16,9 +16,7 @@ and, run it any time.
 ```
 
 ## usage
-- asciinema link: <https://asciinema.org/a/562900>
-
-![gif](here.gif)
+[![asciicast](https://asciinema.org/a/562900.svg)](https://asciinema.org/a/562900)
 
 ## credits
 - i be giving them a thank, the developers of <https://is.gd/>.
